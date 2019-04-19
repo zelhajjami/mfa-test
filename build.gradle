@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'maven'
+
+repositories {
+    jcenter()
+}
+
+archivesBaseName = 'custom-mfa'
+version = '0.1'
+
+dependencies {
+}
